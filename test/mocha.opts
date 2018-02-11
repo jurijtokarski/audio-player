@@ -1,0 +1,5 @@
+--require babel-core/register
+--require test/bootstrap.js
+--require ignore-styles
+--recursive
+--colors

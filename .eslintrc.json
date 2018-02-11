@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "indent": "off",
+    "no-tabs": "off",
+    "no-underscore-dangle": "off",
+    "rest-spread-spacing": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-filename-extension": "off"
+  }
+}

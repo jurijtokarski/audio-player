@@ -1,0 +1,60 @@
+.root {
+    margin-top: 8px;
+    position: absolute;
+    top: -50px;
+    bottom: -60px;
+    left: -60px;
+    right: -60px;
+}
+
+.items {
+    display: block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+}
+
+.item {
+    background: none;
+    border: 0;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 300;
+    transition: opacity, color 0.5s ease-in;
+    position: relative;
+}
+
+.item:hover {
+    opacity: 1;
+}
+
+.item:focus,
+.item:active,
+.current {
+    opacity: 1;
+    color: #999;
+}
+
+.current:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #999;
+    margin-top: -5px;
+}
+
+.btn-close {
+    composes: button-square from "../../_shared/button.css";
+    margin: -8px auto 0;
+}

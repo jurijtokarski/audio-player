@@ -1,0 +1,77 @@
+.root {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: center #000;
+    background-size: cover !important;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.root:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.container {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+}
+
+.main-view {
+    animation-duration: 0.5s;
+    animation-name: slideIn;
+}
+
+.playlist-view {
+    top: 52%;
+    animation-duration: 0.5s;
+    animation-name: slideOut;
+}
+
+@keyframes slideIn {
+    from {
+        left: 60%;
+        opacity: 0;
+    }
+
+    to {
+        left: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        left: 40%;
+        opacity: 0;
+    }
+
+    to {
+        right: 50%;
+        opacity: 1;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    display: block;
+}

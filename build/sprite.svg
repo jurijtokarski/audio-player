@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="close" viewBox="0 0 21.2 21.2">
+<g>
+	<rect x="8.6" y="-2.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.3906 10.6133)" width="4" height="26"/>
+	<rect x="-2.4" y="8.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.3867 10.6038)" width="26" height="4"/>
+</g>
+
+</symbol>
+<symbol id="next" viewBox="0 0 36 18">
+<g>
+	<polygon points="0,17 18,9 0,1 	"/>
+	<polygon points="16,17 34,9 16,1 	"/>
+	<rect x="32" width="4" height="18"/>
+</g>
+
+</symbol>
+<symbol id="playlist" viewBox="0 0 26 20">
+<g>
+	<rect x="11" y="-11" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 15 -11)" width="4" height="26"/>
+	<rect x="11" y="-3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 23 -3)" width="4" height="26"/>
+	<rect x="11" y="5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 31 5)" width="4" height="26"/>
+</g>
+
+</symbol>
+<symbol id="playpause" viewBox="0 0 38 18">
+<g>
+	<polygon points="0,17 18,9 0,1 	"/>
+	<rect x="26" width="4" height="18"/>
+	<rect x="34" width="4" height="18"/>
+</g>
+
+</symbol>
+<symbol id="prev" viewBox="0 0 36 18">
+<g>
+	<polygon points="36,17 18,9 36,1 	"/>
+	<polygon points="20,17 2,9 20,1 	"/>
+	<rect x="0" y="0" transform="matrix(-1 -4.502011e-11 4.502011e-11 -1 4 18)" width="4" height="18"/>
+</g>
+
+</symbol></svg>

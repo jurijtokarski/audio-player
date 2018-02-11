@@ -1,0 +1,82 @@
+.root {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.item {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+}
+
+.content {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.timer {
+    composes: item;
+    top: 60px;
+    height: 48px;
+    font-size: 48px;
+}
+
+.title {
+    composes: item;
+    top: 140px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.author {
+    composes: item;
+    top: 170px;
+    height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.btn-open-playlist {
+    composes: button-square from "../../_shared/button.css";
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    margin-left: -18px;
+}
+
+.btn-start-prev-item {
+    composes: button-square from "../../_shared/button.css";
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    left: -38px;
+}
+
+.btn-start-next-item {
+    composes: button-square from "../../_shared/button.css";
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    right: -38px;
+}
+
+.btn-play-pause {
+    composes: button-square from "../../_shared/button.css";
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    margin-left: -18px;
+}

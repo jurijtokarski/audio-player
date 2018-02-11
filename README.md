@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
@@ -19,6 +20,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Contribution guidelines ###
 
+
 * Writing tests
 * Code review
 * Other guidelines
@@ -27,3 +29,10 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+=======
+# Audio Player
+
+* Install dependencies: `npm install` or `yarn`
+* Run built demo: `npm run start:dist` or `yarn start:dist`
+* Run development demo: `npm run start` or `yarn start`
+>>>>>>> 5a0a4ec... init

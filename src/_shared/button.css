@@ -1,0 +1,25 @@
+.button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    color: #fff;
+    opacity: 0.75;
+    transition: opacity 0.2s ease-in;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:active,
+.button:focus {
+    opacity: 0.5;
+}
+
+.button-square {
+    composes: button;
+    width: 36px;
+    height: 36px;
+}

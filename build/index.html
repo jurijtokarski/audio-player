@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+        
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="index.js"></script>
+    <script>
+        var config = {
+            targetId: "root",
+            items: [
+                {
+                    title: "Tarantelle, Op. 43",
+                    author: "Frédéric Chopin",
+                    background: "images/1.jpg",
+                    track: "tracks/chopin-tarantelle-op43.mp3",
+                },
+                {
+                    title: "Andantino 'Spring', B. 117",
+                    author: "Frédéric Chopin",
+                    background: "images/2.jpg",
+                    track: "tracks/chopin-spring.mp3",
+                },
+                {
+                    title: "Mazurka in D major, B. 4",
+                    author: "Frédéric Chopin",
+                    background: "images/3.jpg",
+                    track: "tracks/chopin-mazurka-in-d-major-b4.mp3",
+                },
+                {
+                    title: "Mazurka in D major, B. 71",
+                    author: "Frédéric Chopin",
+                    background: "images/4.jpg",
+                    track: "tracks/chopin-mazurka-in-d-major-b71.mp3",
+                },
+            ],
+        };
+        
+        new Player(config).render();
+    </script>
+</body>
+</html>

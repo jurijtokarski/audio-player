@@ -1,0 +1,15 @@
+.root {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.clickable-path {
+    cursor: pointer;
+}
+
+.root svg path {
+    transition: stroke-dasharray 0.2s ease-in-out;
+}
