@@ -18,7 +18,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-autobind": "^1.0.6",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.1"
   },
   "devDependencies": {
     "app-module-path": "^2.2.0",
