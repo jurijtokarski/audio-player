@@ -1,4 +1,4 @@
-# Audio Player Example
+# Audio Player
 
 * Install dependencies: `npm install` or `yarn`
 * Run built demo: `npm run start:dist` or `yarn start:dist`
